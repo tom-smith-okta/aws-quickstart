@@ -1,6 +1,6 @@
 # Okta + AWS Quickstart #
 
-Get up and running quickly to allow Okta users to SSO into AWS.
+Get up and running quickly to allow Okta users to SSO into AWS.	
 
 ## Overview ##
 This guide will walk you through the basics of setting up Okta as an IDP for your AWS account. We will use CloudFormation templates to set up the AWS resources. If you are interested in what's going on behind the scenes in AWS and Okta, take a look at the "How it Works" section below.
@@ -148,7 +148,7 @@ Click on the *Assignments* tab.
 
 Click on the green *Assign* button.
 
-![](https://s3.amazonaws.com/tom-smith-okta-demo-images/aws-labs/aws-assign-people.png)
+![](https://s3.amazonaws.com/tom-smith-okta-demo-images/aws-labs/aws-assign-people_300.png)
 
 In a production environment, you would likely assign the application to group(s). For now, we are going to just assign the application to a single user.
 
@@ -166,7 +166,7 @@ Select a role (or roles) from the list of *SAML User Roles*.
 > **Note**:
 > If you assign more than one AWS role to a user, the user will be able to choose from a list of their assigned AWS roles after they authenticate with Okta and click on the AWS chiclet. If you assign just one AWS role, then when the user clicks the AWS chiclet they will go directly to the AWS dashboard without having to choose their role.
 
-![](https://s3.amazonaws.com/tom-smith-okta-demo-images/aws-labs/aws-assign-saml-roles.png)
+![](https://s3.amazonaws.com/tom-smith-okta-demo-images/aws-labs/aws-assign-saml-role.png)
 
 Click *Save and Go Back*, then *Done*.
 
