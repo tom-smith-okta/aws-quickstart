@@ -1,7 +1,9 @@
-# Accessing AWS Resources with Okta as Identity Provider (IDP) #
+# Okta + AWS Quickstart #
+
+Get up and running quickly to allow Okta users to SSO into AWS.
 
 ## Overview ##
-This guide will walk you through the basics of setting up Okta as an IDP for your AWS account. If you are interested in what's going on behind the scenes in AWS and Okta, take a look at the "How it Works" section below.
+This guide will walk you through the basics of setting up Okta as an IDP for your AWS account. We will use CloudFormation templates to set up the AWS resources. If you are interested in what's going on behind the scenes in AWS and Okta, take a look at the "How it Works" section below.
 
 ## Prerequisites ##
 
